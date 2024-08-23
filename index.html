@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENCRIPTADOR DE TEXTO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <audio src="./assets/stranger_things.mp3" autoplay></audio>
+  <header>
+  <h1 class="presentacion">CREA Y DESCUBRE SECRETOS</h1>
+  </header> 
+  <main>
+    <section>
+    <div class="contenedor">
+    <div class="indicaciones">
+      <label for="userText"><h2> Escribe tu texto:</h2></label>
+      <textarea id="userText" rows="4" cols="50"></textarea>
+    </div>
+   <div class="resultado"><h2>Tu mensaje es:</h2>
+    <p id="resultadoTexto"></p> 
+  </div>
+  </div>
+    <button onclick="encriptarTexto()" class="encriptar"><h2>Encriptar</h2></button>
+    <button onclick="desencriptarTexto()" class="desencriptar"><h2>Desencriptar</h2></button></div>
+   </section>
+      
+  </main>  
+  <script src="app.js" defer></script>
+</body>
+<footer>
+  <h2>Desarrollado por Gabriela Reyna</h2>
+</footer>
+</html>
